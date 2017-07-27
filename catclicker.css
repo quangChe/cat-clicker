@@ -1,0 +1,139 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+li>img {
+    width: 60%;
+    min-width: 100px;
+    height: 60%;
+}
+
+li:hover {
+    opacity: .7;
+    width: 110%;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+button {
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: none;
+    font-weight: 700;
+}
+
+button:hover,
+button:active,
+button:focus {
+    cursor: pointer;
+    outline: none;
+}
+
+input {
+    margin-right: 50px;
+}
+
+#display {
+    float: left;
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#display h3 {
+    font-weight: 100;
+    margin-left: 0;
+    color: #aaa;
+    font-size: 1em;
+}
+
+#display>img {
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+#display>img:hover {
+    cursor: pointer;
+    order: 1;
+}
+
+#display p {
+    color: orange;
+}
+
+#display> * {
+    text-align: right;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#admin-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
+
+#admin-panel {
+    position: fixed;
+    bottom: 50px;
+    left: 200px;
+}
+
+#submit {
+    color: limegreen;
+    border-color: limegreen;
+    padding: 5px 10px;
+}
+
+#cancel {
+    margin-left: 20px;
+    color: gray;
+    border-color: gray;
+    padding: 5px 10px;
+}
+
+#catList {
+    width: 20%;
+    text-align: center;
+    overflow-x: scroll;
+    height: 100vh;
+    background: #f0f0f0;
+    float: right;
+}
+
+.scroll {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #aaa;
+    padding: 0 20px;
+}
+
+.name {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: .9em;
+}
